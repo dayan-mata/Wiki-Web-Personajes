@@ -1,11 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <script>
-        window.location.href = "PRINCIPAL/index.html";
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Estilo AnimeWiki</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="nav-bar">
+            <div class="search-container">
+                <input type="text" placeholder="Buscar..." class="search-bar">
+                <button class="search-button">Buscar</button>
+                <div class="logo-container">
+                    <img src="Images/logo sin fondo.jpg" alt="Logo del sitio" class="logo">
+                </div>
+            </div>
+            <nav class="nav-links">
+                <button class="nav-button">Inicio</button>
+                <button class="nav-button" onclick="window.location.href='../PERFIL/index.html'">Perfil</button>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="welcome">
+                <p class="welcome-text"><strong>¡Hola Explorador!</strong><br>Bienvenido a AnimeWiki</p>
+            </div>
+        </section>
+
+        <section class="separator">
+            <img src="Images/Separador.jpg" alt="Separador decorativo">
+        </section>
+
+        <section class="profile">
+            <h1>Bienvenido a <span>AnimeWiki</span></h1>
+            <p>Aquí Encontraras:</p>
+            <ul class="styled-list">
+                <li>1.-Biografías, habilidades e historias de personajes.</li>
+                <li>2.-Datos curiosos y teorías sobre animes populares.</li>
+                <li>3.-Conectar con una comunidad apasionada.</li>
+            </ul>
+            <p>Contacto para enviar tu propia wiki: <a href="mailto:contacto@animewiki.com">contacto@animewiki.com</a></p>
+            <p><a onclick="window.location.href='../MAS CONTENIDO/index.html'" class="internal-link">Explora más contenido aquí</a></p>
+           <button class="btn-menu" onclick="window.location.href='../MENU/index.html'">MENU PRINCIPAL PERSONAJES</button>
+           <button class="btn-menu" onclick="window.location.href='../FORMULARIO/index.html'">
+            IR AL FORMULARIO
+          </button>
+            
+        </section>
+
+        <section class="details">
+            <h2>¿Qué personaje quieres conocer hoy?</h2>
+            <div class="gallery">
+                <img src="Images/imagen1.JPG" alt="Imagen 1">
+                <img src="Images/imagen2.JPG" alt="Imagen 2">
+                <img src="Images/imagen3.JPG" alt="Imagen 3">
+                <img src="Images/imagen4.JPG" alt="Imagen 4">
+            </div>
+        </section>
+
+        <section class="stories">
+            <h3>Stories</h3>
+            <div class="stories-gallery">
+                <img src="Images/story1.mp4" alt="Historia 1">
+                <img src="Images/Story2.mp4" alt="Historia 2">
+                <img src="Images/story3.mp4" alt="Historia 3">
+            </div>
+        </section>
+    </main>
 </body>
 </html>
