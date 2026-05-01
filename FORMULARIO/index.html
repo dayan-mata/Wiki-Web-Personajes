@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO - CLUB DE FANS DE ANIME</title>
+    <link rel="stylesheet" href="stylesFOR.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">REGISTRO - CLUB DE FANS DE ANIME</h1>
+        <img src="imagesFOR/SEPARADOR FOR.jpg" alt="Separador" class="separador">
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>ÚNETE A NUESTRA COMUNIDAD</h2>
+            <img src="imagesFOR/MAKIMA.jpg" alt="Separador" class="separador">
+
+            <form>
+                <label for="nombre">NOMBRE COMPLETO:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="usuario">NOMBRE DE USUARIO:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="email">CORREO ELECTRÓNICO:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">CONTRASEÑA:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">CONFIRMAR CONTRASEÑA:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <label for="telefono">TELÉFONO:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+
+                <label for="nacimiento">FECHA DE NACIMIENTO:</label>
+                <input type="date" id="nacimiento" name="nacimiento" required>
+
+                <label for="genero">GÉNERO:</label>
+                <select id="genero" name="genero" required>
+                    <option value="">SELECCIONA UNA OPCIÓN</option>
+                    <option value="masculino">MASCULINO</option>
+                    <option value="femenino">FEMENINO</option>
+                    <option value="otro">OTRO</option>
+                </select>
+
+                <label for="anime">ANIME FAVORITO:</label>
+                <input type="text" id="anime" name="anime" required>
+
+                <label for="imagen">SUBIR IMAGEN DE PERFIL:</label>
+                <input type="file" id="imagen" name="imagen" accept="image/*">
+                
+                <button type="submit">REGISTRARSE</button>
+            </form>
+        </div>
+        <div class="card botones">
+            <button onclick="window.location.href='../PRINCIPAL/index.html'">Inicio</button>
+            <button onclick="window.location.href='../MENU/index.html'">Más personajes</button>
+          </div>
+          
+    </main>
+</body>
+</html>

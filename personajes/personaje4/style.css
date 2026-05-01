@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #3e7f5b; /* Fondo verde sólido */
+  color: #e9fce9;
+}
+
+.wiki-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(33, 66, 44, 0.85); /* Verde oscuro translúcido */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.perfil {
+  text-align: center;
+}
+
+.perfil img {
+  border-radius: 50%;
+  border: 5px solid #66c28d;
+  width: 220px;
+  height: auto;
+}
+
+.perfil h1 {
+  color: #afffca;
+  font-size: 2.8em;
+  margin-top: 15px;
+}
+
+.separador-imagen {
+  border: none;
+  height: 12px;
+  background: url('https://www.transparenttextures.com/patterns/green-dust-and-scratches.jpg');
+  background-color: #4eaf74;
+  margin: 20px 0;
+}
+
+.contenido {
+  text-align: left;
+  line-height: 1.7;
+}
+
+.contenido h2 {
+  color: #b3ffdf;
+  border-bottom: 2px solid #86e2aa;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+.decorativa {
+  width: 100%;
+  max-width: 500px; /* Tamaño máximo de la imagen */
+  height: auto;
+  display: block;
+  margin: 20px auto; /* Centrado */
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+.botones {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  background: linear-gradient(to right, #6fe39a, #3fbf74);
+  border: none;
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1em;
+  color: #1c3c2d;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #3fbf74, #6fe39a);
+  transform: scale(1.05);
+}

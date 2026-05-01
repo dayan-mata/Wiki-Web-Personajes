@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+    background-color: #3a0d26; /* Fondo rosa oscuro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: auto;
+    width: 100%;
+}
+
+/* Contenedor principal */
+.profile-container {
+    background: #4e1335;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* GRANDE */
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.3);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* Imagen destacada como separador pequeño */
+.featured-image {
+    width: 100%;
+    height: 150px; /* AHORA ES MÁS PEQUEÑA */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Separa la imagen destacada de los demás elementos */
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.4);
+}
+
+/* Contenedor de perfil - AHORA SE VE EL CÍRCULO */
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+/* CÍRCULO DEL AVATAR */
+.avatar-container {
+    width: 160px; /* TAMAÑO DEL CÍRCULO */
+    height: 160px;
+    border-radius: 50%;
+    background: #ff99c8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 4px solid white;
+    position: absolute;
+    top: -80px; /* PARA QUE SE SOBRE PONGA AL BANNER */
+}
+
+/* IMAGEN DE PERFIL DENTRO DEL CÍRCULO */
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Contenedor de información del personaje */
+.character-info {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 100px; /* SEPARA DEL CÍRCULO */
+}
+
+/* Sección de títulos - CON FONDO */
+.section-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 12px;
+    text-align: center;
+    background: #ff6699; /* Fondo rosa fuerte */
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(255, 105, 180, 0.5);
+}
+
+/* Contenido de las secciones */
+.section-content {
+    background: #772152;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Botones de Secciones */
+.sections button {
+    background: #ff66a3;
+    border: none;
+    padding: 15px;
+    margin: 8px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.sections button:hover {
+    background: #e60073;
+    transform: scale(1.1);
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilo para cada imagen dentro de la galería o publicaciones */
+  .images img {
+    width: 180px; /* Más chica */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .images img:hover {
+    transform: scale(1.05);
+  }
+  
+
+.botones {
+    text-align: center;
+  }
+  
+  button {
+    background: linear-gradient(to right, #b980e3, #d6a3f7);
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1em;
+    color: #3d2561;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #d6a3f7, #b980e3);
+    transform: scale(1.05);
+  }

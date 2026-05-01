@@ -1,0 +1,165 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0d1b2a;
+    color: #e0f0ff;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .wiki-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .encabezado {
+    text-align: center;
+    background: linear-gradient(to right, #12263a, #1e3d59);
+    padding: 40px 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    box-shadow: 0 0 10px #1e90ff66;
+  }
+  
+  .encabezado h1 {
+    margin: 0;
+    font-size: 3em;
+  }
+  
+  .alias {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #8fcaff;
+  }
+  
+  .nav-botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .nav-botones button {
+    background: #1e90ff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .nav-botones button:hover {
+    background: #63b3ff;
+    transform: scale(1.05);
+  }
+  
+  .seccion {
+    background-color: #1b2b3a;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(30,144,255,0.2);
+  }
+  
+  .seccion h2 {
+    color: #63b3ff;
+    border-bottom: 2px solid #63b3ff33;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .perfil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .imagen-perfil {
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(30,144,255,0.3);
+  }
+  
+  .info {
+    flex: 1;
+  }
+  
+  ul {
+    list-style-type: "🔹 ";
+    padding-left: 20px;
+  }
+  
+  .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .imagenes img {
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px #1e90ff66;
+  }
+  
+  .contacto button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+
+  
+  .botones-finales {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .botones-finales button {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .botones-finales button:hover {
+    transform: scale(1.1);
+    background-color: #63b3ff;
+  }
+  .card.botones {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .card.botones button {
+    background: linear-gradient(to right, #63b3ff, #1e3d59);
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 0 10px #63b3ff;
+  }
+  
+  .card.botones button:hover {
+    background: linear-gradient(to right, #1e3d59, #63b3ff);
+    transform: scale(1.05);
+  }

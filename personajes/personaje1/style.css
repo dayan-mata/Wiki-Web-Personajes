@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1A0A0A;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 12px;
+}
+.container {
+    width: 80%;
+    background: #230f0e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0a0000;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2b0001;
+    padding: 15px;
+    border-radius: 5px;
+}
+.header h1 {
+    font-size: 2 em;
+    color: #910808;
+}
+content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+.big-image img {
+    width: 80%;
+    border-radius: 10px;
+}
+.info img {
+    width: 300px;
+    border-radius: 5px;
+   
+}
+.abilities, .relics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 15px;
+    background: #2b0001;
+    border-radius: 5px;
+    text-align: left;
+}
+.abilities div, .relics div {
+    flex-grow: 1;
+}
+.abilities img, .relics img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    order: 2;
+}
+.extra-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .extra-image-container {
+    width: 120px;
+    text-align: center;
+  }
+  
+  .extra-image-container img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 77, 109, 0.5);
+  }
+  
+  
+.introduction, .history {
+    margin-top: 20px;
+    padding: 10px;
+    background: #2b0001;;
+    border-radius: 5px;
+    text-align: left;
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #910808;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.title-bar {
+    background: #1A0A0A;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    color: #910808;
+    font-size: 14px;
+    border-bottom: 3px solid #2b0001;
+}
+
+
+.botones {
+    text-align: center;
+  }
+  
+  button {
+    background: linear-gradient(to right, #910808, #2b0001);
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1em;
+    color:  white;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to right, #910808, #2b0001);
+    transform: scale(1.05);
+  }

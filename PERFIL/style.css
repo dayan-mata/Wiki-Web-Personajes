@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #2c0a18;
+  color: #f5e6e8;
+}
+
+header {
+  background-color: #5a0b2e;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  color: #fddde6;
+}
+
+header p {
+  margin-top: 5px;
+  font-size: 1.2em;
+  color: #ffd4dd;
+}
+
+.separador-imagen img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu li a {
+  color: #ffe4eb;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #7b1739;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+  background-color: #a3214c;
+}
+
+.content {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #3e0d22;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.content h2 {
+  font-size: 2em;
+  color: #ffccd5;
+}
+
+.content p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #5a0b2e;
+  color: #f5e6e8;
+}
+
+/* Nueva clase para galería de imágenes */
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Imágenes pequeñas y centradas */
+.imagen-ajustada {
+  display: block;
+  width: 80%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  border: 2px solid #a3214c;
+}

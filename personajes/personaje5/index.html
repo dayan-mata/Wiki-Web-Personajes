@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wiki de Personaje Oscura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wiki-container">
+
+    <header class="encabezado">
+      <h1>Reisi Munakata</h1>
+      <p class="alias">"Rey Azul"</p>
+      <nav class="nav-botones">
+        <button onclick="scrollToSection('biografia')">Biografía</button>
+        <button onclick="scrollToSection('habilidades')">Habilidades</button>
+        <button onclick="scrollToSection('galeria')">Galería</button>
+        <button onclick="scrollToSection('curiosidades')">Curiosidades</button>
+        <button onclick="scrollToSection('enemigos')">Enemigos</button>
+        
+      </nav>
+    </header>
+
+    <section id="biografia" class="seccion">
+      <h2>Biografía</h2>
+      <div class="perfil">
+        <img src="imagenes/PERFIL.jpg" alt="Imagen de perfil" class="imagen-perfil">
+        <div class="info">
+          <h2>Biografía</h2>
+  <ul>
+  <li><strong>Nombre completo:</strong> Reisi Munakata</li>
+  <li><strong>Anime:</strong> K Project</li>
+  <li><strong>Edad:</strong> Aproximadamente 25-30 años</li>
+  <li><strong>Ocupación:</strong> Rey Azul, Capitán de Scepter 4</li>
+  <li><strong>Afiliación:</strong> Scepter 4</li>
+  <li><strong>Altura:</strong> 1.85 m</li>
+  <li><strong>Color de clan:</strong> Azul</li>
+  <li><strong>Personalidad:</strong> Calmado, lógico, diplomático</li>
+</ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="seccion">
+      <h2>Habilidades y Equipo</h2>
+      <ul>
+        <li><strong>Poderes del Rey Azul:</strong> Control sobre la energía de tipo "azul", que representa el orden y la disciplina.</li>
+        <li><strong>Espadas de restricción:</strong> Crea espadas de energía azul que pueden sellar poderes o restringir movimiento.</li>
+        <li><strong>Combate con katana:</strong> Maneja una katana de forma experta, tanto en técnicas físicas como con energía.</li>
+        <li><strong>Equipo:</strong> Traje azul ceremonial, gafas, katana, y su sello de Rey Azul.</li>
+      </ul>
+    </section>
+
+    <section id="galeria" class="seccion galeria">
+      <h2>Galería</h2>
+      <div class="imagenes">
+        <img src="imagenes/IMG1.jpg" alt="Imagen 1">
+        <img src="imagenes/GIF1.mp4" alt="Imagen 2">
+        <img src="imagenes/IMG2.jpg" alt="Imagen 3">
+      </div>
+    </section>
+
+    <section id="curiosidades" class="seccion">
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>Le encanta leer libros y resolver crucigramas.</li>
+        <li>Suele hablar de forma muy formal incluso con sus subordinados.</li>
+        <li>Tiene una relación peculiar y tensa con el Rey Rojo anterior, Mikoto Suoh.</li>
+        <li>Su seiyuu en japonés es Tomokazu Sugita.</li>
+      </ul>
+    
+    </section>
+
+    <section id="enemigos" class="seccion">
+      <h2>Enemigos</h2>
+      <ul>
+        <li><strong>Mikoto Suoh:</strong> El anterior Rey Rojo, su opuesto tanto en poder como en filosofía.</li>
+        <li><strong>JUNGLE (Color Verde):</strong> Organización anarquista liderada por el Rey Verde.</li>
+        <li><strong>El Clan Colorless:</strong> Representa el caos y la pérdida de identidad.</li>
+      </ul>
+    </section>
+    <footer class="botones-finales">
+      <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">↑ Volver arriba</button>
+    </footer>
+  </div>
+
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+  <div class="card botones">
+    <button onclick="window.location.href='../../PRINCIPAL/index.html'">Inicio</button>
+    <button onclick="window.location.href='../../MENU/index.html'">Más personajes</button>
+    <button onclick="alert('Gracias por visitar! ATT:DAYAN MATA')">Créditos</button>
+  </div>
+</body>
+</html>

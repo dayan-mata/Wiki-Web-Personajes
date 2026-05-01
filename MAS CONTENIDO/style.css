@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    background-color: #2b0a14;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.main-header {
+    text-align: center;
+    background-color: #4b0e22;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.main-header h1 {
+    position: relative;
+    z-index: 10;
+  }
+  .image-banner img {
+    max-height: 100%;
+    width: auto;
+  }
+
+.main-header p {
+    font-size: 1.2rem;
+    color: #ffccd5;
+}
+
+.image-banner {
+    background-color: #6c0f29;
+    height: 180px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    box-shadow: 0 0 12px rgba(255, 77, 109, 0.5);
+}
+
+.main-button {
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-button:hover {
+    background-color: #ff1f4c;
+    box-shadow: 0 0 10px rgba(255, 204, 213, 0.4);
+}
+
+.boton-ovalado {
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: #ff1f4c;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.1s ease, background-color 0.3s ease;
+    user-select: none;
+  }
+  
+  .boton-ovalado:active {
+    transform: scale(0.95);
+  }
+  
+
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.intro .text {
+    max-width: 500px;
+}
+
+.intro .text h2 {
+    font-size: 2rem;
+    color: #ff4d6d;
+}
+
+.intro .text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+
+.image-placeholder {
+    width: 120px; 
+    height: 120px;
+    background-color: #6c0f29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 77, 109, 0.5);
+    overflow: hidden;
+  }
+  
+  .image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px; 
+  }
+
+.divider {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #ff4d6d, #ffccd5);
+    margin: 50px 0;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.feature-card {
+    background-color: #3a0d1b;
+    padding: 20px;
+    border-radius: 20px;
+    width: 280px;
+    box-shadow: 0 0 10px rgba(255, 77, 109, 0.3);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 204, 213, 0.6);
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.call-to-action {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #390d1d;
+    border-radius: 20px;
+    margin: 40px 20px;
+    box-shadow: 0 0 20px rgba(255, 77, 109, 0.3);
+}
+
+.call-to-action .text h2 {
+    font-size: 2rem;
+    color: #ff4d6d;
+    margin-bottom: 20px;
+}
+
+.call-to-action .text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #ffccd5;
+}
+
+.extra-gallery {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.extra-gallery h2 {
+    font-size: 2rem;
+    color: #ff4d6d;
+    margin-bottom: 10px;
+}
+
+.extra-gallery p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #ffccd5;
+}
+
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+  
+  .image-placeholder {
+    width: 120px;
+    height: 120px;
+    background-color: #6c0f29;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 77, 109, 0.5);
+    overflow: hidden;
+  }
+  
+  .image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #4b0e22;
+    color: #ffccd5;
+    font-size: 1rem;
+    border-top: 2px solid #ff4d6d;
+}
